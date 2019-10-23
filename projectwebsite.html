@@ -128,38 +128,5 @@
 
 
 
-
-<script>
-
-
-$(function ()
-{
-    var $window = $(window),
-        $nav = $('nav'),
-        $button = $('button');
-
-    $button.on('click', function ()
-    {
-        $nav.slideToggle();
-    });
-
-    $window.on('resize', function ()
-    {
-        if ($window.width() > 400)
-        {
-            $nav.show();
-        }
-    });
-});
-
-
-
-</script>
-
-
-
-
-
-
     </body>
 </html>
